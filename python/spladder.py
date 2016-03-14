@@ -203,9 +203,9 @@ def spladder():
                 CFG_['samples'] = CFG['samples']
                 CFG['bam_fnames'] = CFG['bam_fnames'][idx]
                 CFG['samples'] = CFG['samples'][idx]
-                CFG['out_fname'] = '%s/spladder/genes_graph_conf%i.%s.pickle' % (CFG['out_dirname'], CFG['confidence_level'], CFG['samples'])
+                CFG['out_fname'] = '%s/genes_graph_conf%i.%s.pickle' % (CFG['out_dirname'], CFG['confidence_level'], CFG['samples'])
             else:
-                CFG['out_fname'] = '%s/spladder/genes_graph_conf%i.%s.pickle' % (CFG['out_dirname'], CFG['confidence_level'], CFG['merge_strategy'])
+                CFG['out_fname'] = '%s/genes_graph_conf%i.%s.pickle' % (CFG['out_dirname'], CFG['confidence_level'], CFG['merge_strategy'])
 
             ### assemble out filename to check if we are already done
             fn_out = CFG['out_fname']
